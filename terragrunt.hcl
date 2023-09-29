@@ -1,7 +1,7 @@
 remote_state {
   backend = "s3"
   config = {
-    bucket  = "au-ca-uat-terraform"
+    bucket  = "terraform"
     key     = "terragrunted/${path_relative_to_include()}.tfstate"
     region  = "ap-south-1"
     encrypt = true
