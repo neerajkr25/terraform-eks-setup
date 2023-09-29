@@ -27,7 +27,5 @@ inputs = {
   tags = {
     Name        = "ca-workload-vpc"
     Owner       = "DevOps"
-    Project     = "CADIY"
-    Environment = "UAT"
   }
 }
